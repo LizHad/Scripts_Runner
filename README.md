@@ -1,6 +1,11 @@
 This project test file runs a script file (eg. python script).
-First, we provide script path vid cmd command - "cd <<enter path here>>"
-Second, we print command to run script via cmd- "<<enter command line here>>"
+
+First, we provide script path vid cmd command:
+"cd <<enter path here>>"
+
+Second, we print command to run script via cmd: 
+"<<enter command line here>>"
+
 We do this by using CmdExecutor class. We run test via Run_Script_File class.
 
 This project provides provides integration with Jenkins via pom.xml file profiles
