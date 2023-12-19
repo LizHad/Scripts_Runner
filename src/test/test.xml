@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POP_L400_downgrade_945">
+
+    <listeners>
+        <listener class-name="utils.ScreenshotListener"> </listener>
+    </listeners>
+
+    <test name="Run script automatically">
+
+        <parameter name="cmdPath" value = "cd enter path here"/>
+        <parameter name="runPythScript" value = "enter command here that runs script via cmd"/>
+
+        <classes>
+
+            <class name="test.Run_Script_File"/>
+
+        </classes>
+
+    </test>
+
+</suite>
